@@ -13,3 +13,9 @@ a:active  { color: pink;  }
   display: table;
   clear: both;
 }
+
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
